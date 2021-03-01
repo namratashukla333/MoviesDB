@@ -1,0 +1,13 @@
+package io.nams.resources;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//this is my rest controller 
+
+@RestController
+public class MovieCatalogResource {
+public List<CatalogItem> getCatalog(String userId){
+	
+}
+}

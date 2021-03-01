@@ -1,0 +1,5 @@
+package io.nams.movieinfoservice.resource;
+
+public class MovieResource {
+
+}

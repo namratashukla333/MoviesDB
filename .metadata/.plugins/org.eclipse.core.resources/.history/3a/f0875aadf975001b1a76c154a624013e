@@ -1,0 +1,15 @@
+package io.nams.moviecatalogservice.resources;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+
+public class Error {
+	@RequestMapping("/error")
+	String errorMessage() {
+		return "There is a huge error";
+	}
+	
+	
+}

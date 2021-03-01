@@ -1,0 +1,5 @@
+package io.nams.resources;
+@RestController
+public class MovieCatalogResource {
+
+}

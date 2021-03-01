@@ -1,0 +1,5 @@
+ package io.nams.movieinfoservice.modals;
+
+public class Movie {
+
+}

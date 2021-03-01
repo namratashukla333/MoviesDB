@@ -1,0 +1,16 @@
+package io.nams.resources;
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.nams.models.CatalogItem;
+
+//this is my rest controller 
+
+@RestController
+public class MovieCatalogResource {
+public List<CatalogItem> getCatalog(String userId){
+	return Collections.singletonList(new CatalogItem("Transformers", "SciFi Movie", 4));
+}
+}

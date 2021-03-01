@@ -1,0 +1,5 @@
+package io.nams.ratingsdataservice.modal;
+
+public class Rating {
+
+}

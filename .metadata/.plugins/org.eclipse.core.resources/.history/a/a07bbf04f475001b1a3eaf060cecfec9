@@ -1,0 +1,11 @@
+package io.nams.resources;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@RestController
+@RequestMapping("/error")
+public class Error {
+
+}
